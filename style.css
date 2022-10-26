@@ -22,7 +22,7 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     font-family: sans-serif;
 }
 
@@ -60,4 +60,48 @@ body {
         display: block;
         text-align: left;
     }
+}
+
+.mainContent {
+    background-color: #1b1b1b;
+    color: #f2f2f2;
+    font-family: 'Noto Serif Telugu', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.mainContent img {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 10%;
+    height: 10%;
+}
+
+.mainContent .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.mainContent .fa:hover {
+    opacity: 0.7;
+}
+
+.mainContent .fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.mainContent .fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.mainContent .fa-github {
+    background: #333;
+    color: white;
 }
