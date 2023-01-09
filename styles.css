@@ -45,43 +45,6 @@ nav a:hover {
     color: rgb(105, 204, 224);
 }
 
-/* Use a media query to change the layout on smaller screens */
-@media (max-width: 600px) {
-  nav {
-    flex-direction: column;
-  }
-  
-  nav ul {
-    display: none;
-  }
-  
-  /* Use a hamburger menu to toggle the navigation links on smaller screens */
-  .hamburger-menu {
-    display: block;
-    cursor: pointer;
-  }
-  
-  .nav-links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    background-color: #fff;
-    z-index: 999;
-  }
-  
-  .nav-links li {
-    margin: 10px 0;
-  }
-  
-  .nav-links a {
-    color: #333;
-  }
-}
-
 main {
     display: flex;
     flex-direction: column;
